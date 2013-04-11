@@ -17,18 +17,22 @@ describe Guitar do
 
   it { should_not allow_value(-3).for (:year) }
   it { should_not allow_value(0).for (:year) }
+  it { should_not allow_value(1997.5).for (:year) }
   it { should_not allow_value(999999).for (:year)}
   it { should allow_value(1995).for (:year) }
 
   it { should allow_value(3).for(:weight)}
-  it { should_not allow_value(-3).for (:year) }
+  it { should_not allow_value(-3).for (:weight) }
+  it { should_not allow_value(3.5).for (:weight) }
   it { should_not allow_value(0).for (:weight) }
 
   it { should allow_value(3).for(:frets)}
   it { should_not allow_value(-3).for (:frets) }
+  it { should_not allow_value(3.5).for (:frets) }
   it { should_not allow_value(0).for (:frets) }
 
   it { should allow_value(3).for(:strings)}
+  it { should_not allow_value(-3).for (:strings) }
   it { should_not allow_value(-3).for (:strings) }
   it { should_not allow_value(0).for (:strings) }
 
