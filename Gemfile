@@ -1,9 +1,11 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-
-gem 'jquery-rails'
 gem "thin", "~> 1.5.1"
+gem 'jquery-rails'
+
+gem 'haml', '4.0.2'
+gem 'haml-rails', '0.4'
 
 group :assets do
   gem 'sass-rails',   '~> 3.2.6'
