@@ -8,7 +8,7 @@ class Guitar < ActiveRecord::Base
   validates :modelName, presence: { with: /\A\Z/ }
   validates :color, presence: { with: /\A\Z/ }
 
-  validates :year, presence: true, numericality: { only_integer: true, greater_than: 0, less_than: current_year }
+  validates :year, presence: true, numericality: { only_integer: true, greater_than: 0, less_than_or_equal_to: current_year}
   validates :weight, presence: true, numericality: { only_integer: true, greater_than: 0 }
   validates :frets, presence: true, numericality: { only_integer: true, greater_than: 0 }
   validates :strings, presence: true, numericality: { only_integer: true, greater_than: 0 }
