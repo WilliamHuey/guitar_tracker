@@ -21,11 +21,12 @@ group :development, :test do
   gem 'guard-rspec', '2.5.2'
   gem "guard-spork", "~> 1.5.0"
   gem 'rb-inotify', '~> 0.9'
+  gem 'capybara', '2.1.0'
 end
 
 group :test do
   gem "shoulda-matchers", "~> 2.0.0"
-  gem 'capybara', '2.1.0'
+
 end
 
 group :production do
