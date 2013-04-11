@@ -15,6 +15,8 @@ end
 group :development, :test do
   gem 'sqlite3'
   gem 'spork', '0.9.2'
+  gem "rspec-rails", "2.13.0"
+  gem 'guard-rspec', '2.5.2'
 end
 
 group :test do
@@ -25,3 +27,4 @@ end
 group :production do
   gem 'pg', '0.14.1'
 end
+
