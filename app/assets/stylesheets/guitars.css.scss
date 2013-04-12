@@ -1,6 +1,42 @@
+html, body{
+  background-color: #FEFEFD;
+  height: 100%;
+  width:  100%;
+}
+
+.no-margin {
+  margin-left: 0em;
+}
+
 #main-wrapper {
-  width: 100%;
-  #main-header {
-    margin: auto;
-  }
+  height:  100%;
+}
+
+#main-secondary-wrapper {
+  padding: 2em;
+  width: auto;
+  margin:  auto;
+}
+
+#main-header-area {
+  background-color: orange;
+}
+
+#main-header {
+}
+
+#main-left-panel {
+  background-color: beige;
+}
+
+#main-left-center {
+  text-align: center;
+}
+
+#main-left-panel-controls {
+  background-color: lightyellow;
+}
+
+#main-right-panel  {
+  background-color: greenyellow;
 }
