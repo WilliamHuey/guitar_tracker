@@ -20,7 +20,7 @@ group :development, :test do
   gem "rspec-rails", "2.13.0"
   gem 'guard-rspec', '2.5.2'
   gem "guard-spork", "~> 1.5.0"
-  gem 'rb-inotify', '~> 0.9'
+  gem 'rb-inotify', '~> 0.9', require: false
   gem 'capybara', '2.1.0'
 end
 
