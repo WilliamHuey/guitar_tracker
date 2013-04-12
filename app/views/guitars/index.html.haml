@@ -1,16 +1,19 @@
-%div#main-wrapper
-  %div#main-secondary-wrapper
-    %div#main-left-panel
-      %div#main-left-center
+%div#main-wrapper.row
+  #main-secondary-wrapper
+    %div#main-left-panel.large-4.columns
+      %div#main-left-center.panel
         %header#main-header-area
           %h3#main-header Guitar Tracker
         %div#main-left-panel-controls
           %button{class: "btn"}Add Guitar
-    %div#main-right-panel
-      %div#main-right-center
-        %div.right-panel-row
-          %div.guitar-element-area
-          %div.guitar-element-area
-          %div.guitar-element-area
-          %div.guitar-element-area
-        %div.right-panel-row
+    %div#main-right-panel.large-8.columns
+      %div#main-right-center.panel
+        %ul.large-block-grid-4
+          %li.guitar-element-area
+            %p Somethin
+          %li.guitar-element-area
+            %p Somethin
+          %li.guitar-element-area
+            %p Somethin
+          %li.guitar-element-area
+            %p Somethin
