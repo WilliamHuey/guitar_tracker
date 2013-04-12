@@ -12,4 +12,5 @@
 //
 //= require jquery
 //= require jquery_ujs
+//= require ember-1.0.0-rc.2
 //= require guitars
