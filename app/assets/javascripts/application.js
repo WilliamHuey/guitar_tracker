@@ -14,4 +14,5 @@
 //= require jquery_ujs
 //= require handlebars
 //= require ember-1.0.0-rc.2
+//= require ember-data
 //= require guitars

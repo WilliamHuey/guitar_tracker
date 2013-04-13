@@ -1,3 +1,10 @@
+%script{type: "text/x-handlebars"}
+  <div>Just a div</div>
+  {{ outlet }}
+
+%script{type: "text/x-handlebars", id: 'about'}
+  <div>About</div>
+
 %div#main-wrapper.row
   #main-secondary-wrapper
     %div#main-left-panel.large-4.columns
@@ -8,7 +15,7 @@
           %button{class: "btn"}Add Guitar
     %div#main-right-panel.large-8.columns
       %div#main-right-center.panel
-        %ul.large-block-grid-4
+        %ul.large-block-grid-4.small-block-grid-4
           %li.guitar-element-area
             %p Somethin
           %li.guitar-element-area
