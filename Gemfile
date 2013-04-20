@@ -1,9 +1,8 @@
 source 'https://rubygems.org'
 
 gem 'rails', '3.2.13'
-gem "thin", "~> 1.5.1"
+gem "puma", "~> 1.6.3"
 gem 'jquery-rails'
-
 gem 'haml', '4.0.2'
 gem 'haml-rails', '0.4'
 
